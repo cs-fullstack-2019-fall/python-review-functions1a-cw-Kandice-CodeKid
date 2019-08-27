@@ -2,7 +2,6 @@
 
 # ### Problem 1
 # Create a ```printNumbers``` function to print integers from -25 to 20 to the console (print in the function)
-
 # define the numbers to print. The method that I thought was best was to use a range with the given integers.
 def printNumbers():
     #Range -25 to 20. count up by 1 end at 21 to ensure that 20 is included in the printed count.
@@ -12,11 +11,6 @@ def printNumbers():
         print(x)
 #call the function
 printNumbers()
-
-
-
-
-
 
 # ### Problem 2
 # Create a function called checkPassword. Send two string variables to the checkPassword function to check if the strings are equal. Return true if they are equal and false if they are not equal. Print the function's return value.
@@ -32,10 +26,7 @@ password1 = input("enter password ")
 password2 = input("enter password again for validation ")
 #call function
 checkPassword()
-
-
-
-
+# !! : you have to print this function so that we can see the value 
 
 # ### Problem 3
 # Write a function that determines if a number passed to it is odd or even. Pass a number of your choosing (using input a good idea) and then using the result from the function, print if the number was even or not.
@@ -47,7 +38,6 @@ checkPassword()
 # The number 5 is an odd number!
 # ```
 
-
 #determine if the number is even or odd. create a variable to hold the user number
 def evenOodd():
     # if the lucky number is divided by 2 with no remainder it is even otherwise it is odd. print odd when the number is divisible by 2 with remainder. If there is no remainder the number is even.
@@ -56,10 +46,9 @@ def evenOodd():
     else:
         print('your number is an odd number')
 luckyNumber = int(input("enter a number to determine if even or odd  "))
-
+# !!: luckyNumber should be passed into evenOdd() as a parameter 
 #call function
 evenOodd()
-
 
 # ### Problem 4
 # * Create a function for the challenge that you call from your ```main```

@@ -1,5 +1,5 @@
 # Python review function introduction
-
+4/5 + bonus. See gcw_kh.py for comments (!!). Score : 4
 ### Problem 1
 Create a ```printNumbers``` function to print integers from -25 to 20 to the console (print in the function)
 
